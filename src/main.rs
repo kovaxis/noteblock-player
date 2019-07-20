@@ -1,10 +1,4 @@
 //! "noteblock.exe"
-//!
-//! Parses midi files and sends them over to a ComputerCraft script by pasting text quickly into
-//! the in-game terminal.
-//!
-//! The companion "noteblock.lua" receives this text and plays the notes on a noteblock (made for
-//! and tested in ComputerCraft 1.79 with OpenPeripherals, for Minecraft 1.7.10).
 
 use clipboard::{ClipboardContext, ClipboardProvider};
 use inputbot::KeybdKey as Key;
